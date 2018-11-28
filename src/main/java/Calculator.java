@@ -1,7 +1,7 @@
 public interface Calculator {
-    public double addition(double n, double m);
-    public double subtraction(double n, double m);
-    public double multiplication(double n, double m);
-    public double division(double n, double m);
+     int addition(int n, int m);
+     int subtraction(int n, int m);
+     int multiplication(int n, int m);
+     int division(int n, int m);
 
 }

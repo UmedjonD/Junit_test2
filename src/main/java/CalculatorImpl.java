@@ -1,28 +1,28 @@
 public class CalculatorImpl implements Calculator {
 
-    public double addition(double n, double m) {
-        double result;
+    public int addition(int n, int m) {
+        int result;
         result = n + m;
         return result;
 
     }
-    public double subtraction(double n, double m) {
-        double result;
+    public int subtraction(int n, int m) {
+        int result;
         result = n - m;
         return result;
 
     }
-    public double multiplication(double n, double m) {
-        double result;
+    public int multiplication(int n, int m) {
+        int result;
         result = n * m;
         return result;
 
     }
-    public double division(double n, double m) {
-        double result;
-        result = n / m;
+    public int division(int n, int m) {
+        int result = 0;
+        try {
+            result = n / m;
+        }catch (ArithmeticException e) {System.out.println("На ноль нелья делить");}
         return result;
-
     }
-
 }
