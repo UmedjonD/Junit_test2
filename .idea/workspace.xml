@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05a8c33e-7563-4f4e-b29b-de301d621981" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CalculatorImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/CalculatorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CalculatorImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Calculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CalculatorImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CalculatorImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/CalculatorImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CalculatorImplTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -87,13 +82,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1192" />
+          <entry key="java" value="1304" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1192" />
+          <entry key="JAVA" value="1304" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
@@ -132,8 +127,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/CalculatorImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+            <state relative-caret-position="408">
+              <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -141,8 +136,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/CalculatorImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="42" column="18" lean-forward="true" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+            <state relative-caret-position="544">
+              <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -240,7 +235,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543408085329" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543409889132" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="project.structure.last.edited" value="Project" />
@@ -271,7 +266,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorImplTest.tesDivision">
+  <component name="RunManager" selected="JUnit.CalculatorImplTest.testdDivisionByZero">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="App" />
       <module name="test2" />
@@ -289,11 +284,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorImplTest.testMultiplication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorImplTest.testDevisionByNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test2" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CalculatorImplTest" />
-      <option name="METHOD_NAME" value="testMultiplication" />
+      <option name="METHOD_NAME" value="testDevisionByNull" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -322,17 +317,17 @@
     <list>
       <item itemvalue="Application.App" />
       <item itemvalue="JUnit.CalculatorImplTest.testSubtraction" />
-      <item itemvalue="JUnit.CalculatorImplTest.testMultiplication" />
       <item itemvalue="JUnit.CalculatorImplTest.tesDivision" />
       <item itemvalue="JUnit.CalculatorImplTest.testdDivisionByZero" />
+      <item itemvalue="JUnit.CalculatorImplTest.testDevisionByNull" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CalculatorImplTest.tesDivision" />
         <item itemvalue="JUnit.CalculatorImplTest.testdDivisionByZero" />
+        <item itemvalue="JUnit.CalculatorImplTest.tesDivision" />
+        <item itemvalue="JUnit.CalculatorImplTest.testDevisionByNull" />
         <item itemvalue="Application.App" />
         <item itemvalue="JUnit.CalculatorImplTest.testSubtraction" />
-        <item itemvalue="JUnit.CalculatorImplTest.testMultiplication" />
       </list>
     </recent_temporary>
   </component>
@@ -350,24 +345,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CalculatorImplTest_tesDivision - 2018.11.28 at 16h 03m 47s.xml">
-      <configuration name="CalculatorImplTest.tesDivision" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorImplTest_tesDivision - 2018.11.28 at 16h 07m 25s.xml">
-      <configuration name="CalculatorImplTest.tesDivision" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorImplTest_tesDivision - 2018.11.28 at 16h 07m 33s.xml">
-      <configuration name="CalculatorImplTest.tesDivision" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorImplTest_testdDivisionByZero - 2018.11.28 at 16h 11m 49s.xml">
-      <configuration name="CalculatorImplTest.testdDivisionByZero" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorImplTest_testdDivisionByZero - 2018.11.28 at 16h 12m 50s.xml">
-      <configuration name="CalculatorImplTest.testdDivisionByZero" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorImplTest_tesDivision - 2018.11.28 at 16h 19m 51s.xml">
-      <configuration name="CalculatorImplTest.tesDivision" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CalculatorImplTest_testdDivisionByZero - 2018.11.28 at 16h 20m 14s.xml">
       <configuration name="CalculatorImplTest.testdDivisionByZero" configurationId="JUnit" />
     </history-entry>
@@ -379,6 +356,24 @@
     </history-entry>
     <history-entry file="CalculatorImplTest_testdDivisionByZero - 2018.11.28 at 16h 22m 57s.xml">
       <configuration name="CalculatorImplTest.testdDivisionByZero" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorImplTest_tesDivision - 2018.11.28 at 16h 27m 56s.xml">
+      <configuration name="CalculatorImplTest.tesDivision" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorImplTest_testDevisionByNull - 2018.11.28 at 16h 39m 00s.xml">
+      <configuration name="CalculatorImplTest.testDevisionByNull" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorImplTest_testdDivisionByZero - 2018.11.28 at 16h 48m 14s.xml">
+      <configuration name="CalculatorImplTest.testdDivisionByZero" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorImplTest_tesDivision - 2018.11.28 at 16h 49m 41s.xml">
+      <configuration name="CalculatorImplTest.tesDivision" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorImplTest_tesDivision - 2018.11.28 at 16h 53m 06s.xml">
+      <configuration name="CalculatorImplTest.tesDivision" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorImplTest_tesDivision - 2018.11.28 at 16h 53m 23s.xml">
+      <configuration name="CalculatorImplTest.tesDivision" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -401,7 +396,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32793018" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32793018" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3254364" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -443,15 +438,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/CalculatorImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+        <state relative-caret-position="408">
+          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CalculatorImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="42" column="18" lean-forward="true" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+        <state relative-caret-position="544">
+          <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
         </state>
       </provider>
     </entry>

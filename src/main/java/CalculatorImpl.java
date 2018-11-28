@@ -22,7 +22,8 @@ public class CalculatorImpl implements Calculator {
         int result = 0;
         try {
             result = n / m;
-        }catch (ArithmeticException e) {System.out.println("На ноль нелья делить");}
+        }catch (ArithmeticException e)
+        {System.out.println("На ноль нелья делить");}
         return result;
     }
 }

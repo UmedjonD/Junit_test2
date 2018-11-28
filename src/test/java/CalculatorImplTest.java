@@ -9,59 +9,30 @@ class CalculatorImplTest {
     @Test
     void testAddition() {
         System.out.println("Сложение ");
-        int a = 5;
-        int b = 5;
-        int expected = 10;
-        int result = calculator.addition(a, b);
-        assertEquals(expected,result);
+        assertEquals(calculator.addition(5,5), 10);
     }
 
     @Test
     void testSubtraction() {
         System.out.println("Вычитание");
-        int a = 5;
-        int b = 5;
-        int expected = 0;
-        int result = calculator.subtraction(a, b);
-        assertEquals(expected,result);
+        assertEquals(calculator.subtraction(5,5),0);
     }
 
     @Test
     void testMultiplication() {
         System.out.println("Умножение");
-        int a = 5;
-        int b = 0;
-        int expected = 0;
-        int result = calculator.multiplication(a, b);
-        assertEquals(expected,result);
+        assertEquals(calculator.multiplication(5,0),0);
     }
 
     @Test
     void tesDivision() {
         System.out.println("Деление");
-        int a = 5;
-        int b = 5;
-        int expected = 1;
-        int result = calculator.division(a, b);
-        assertEquals(expected, result);
+        assertEquals(calculator.division(5, 5), 1);
 
     }
     @Test
     void testdDivisionByZero(){
         System.out.println("Деление на ноль");
-        int a = 2;
-        int b = 0;
-        int expected = 0;
-        int result = calculator.division(a, b);
-        assertEquals(expected, result);
-    }
-    @Test
-    void testDevisionByNull(){
-        System.out.println("Деление на null");
-        int a = 2;
-        int b = Integer.parseInt(null);
-        int expected = 0;
-        int result = calculator.division(a, b);
-        assertEquals(expected, result);
+        assertEquals(calculator.division(2, 0), 0);
     }
 }
