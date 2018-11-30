@@ -9,3 +9,5 @@ U
 %src/test/java/CalculatorImplTest.java,1\2\122c7b97a7b51ab10ae2636e2422b193e96e8e87
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+Y
+)src/test/java/CalculatorNegativeTest.java,d\9\d960f8d8f839badac3a0efc63b4fd410b267fe79
