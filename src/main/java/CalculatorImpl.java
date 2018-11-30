@@ -18,12 +18,9 @@ public class CalculatorImpl implements Calculator {
         return result;
 
     }
-    public int division(int n, int m) {
+    public int division(int n, int m) throws ArithmeticException {
         int result = 0;
-        try {
             result = n / m;
-        }catch (ArithmeticException e)
-        {System.out.println("На ноль нелья делить");}
         return result;
     }
 }

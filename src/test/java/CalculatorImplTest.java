@@ -30,9 +30,5 @@ class CalculatorImplTest {
         assertEquals(calculator.division(5, 5), 1);
 
     }
-    @Test
-    void testdDivisionByZero(){
-        System.out.println("Деление на ноль");
-        assertEquals(calculator.division(2, 0), 0);
-    }
+
 }
