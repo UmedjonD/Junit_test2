@@ -1,5 +1,7 @@
 import org.junit.jupiter.api.Test;
 
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.is;
 import static org.junit.jupiter.api.Assertions.*;
 
 class CalculatorImplTest {
@@ -29,6 +31,11 @@ class CalculatorImplTest {
         System.out.println("Деление");
         assertEquals(calculator.division(5, 5), 1);
 
+    }
+    @Test
+    void testHamcrestKorocheGovorya() {
+        int extected = 2;
+        assertThat(calculator.division(10,5),is(extected));
     }
 
 }

@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05a8c33e-7563-4f4e-b29b-de301d621981" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/CalculatorNegativeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CalculatorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CalculatorImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CalculatorImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CalculatorImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/CalculatorImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CalculatorImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CalculatorNegativeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CalculatorNegativeTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -91,14 +87,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1498" />
-          <entry key="xml" value="2" />
+          <entry key="java" value="1788" />
+          <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1498" />
-          <entry key="XML" value="2" />
+          <entry key="JAVA" value="1788" />
+          <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -118,8 +114,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+            <state relative-caret-position="510">
+              <caret line="30" column="43" lean-forward="true" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -137,7 +133,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/CalculatorImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
-              <caret line="20" column="52" lean-forward="true" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="64" />
+              <caret line="20" column="52" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -145,8 +141,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/CalculatorImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="476">
+              <caret line="28" column="38" lean-forward="true" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -157,8 +153,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/CalculatorNegativeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="34" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="73" />
             </state>
           </provider>
         </entry>
@@ -189,20 +185,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/Calculator.java" />
         <option value="$PROJECT_DIR$/src/test/java/CalculatorImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/CalculatorImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/CalculatorNegativeTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="97" />
-    <option name="y" value="66" />
-    <option name="width" value="1325" />
-    <option name="height" value="938" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -250,6 +245,10 @@
               <item name="test" type="bbb3b172:PsiDirectoryNodeWrapper" />
               <item name="java" type="bbb3b172:PsiDirectoryNodeWrapper" />
             </path>
+            <path>
+              <item name="test2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -257,7 +256,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543577378246" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543582325098" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -288,7 +287,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorNegativeTest.testdDivisionByZeroArithmeticExceptionJe">
+  <component name="RunManager" selected="JUnit.CalculatorImplTest.testHamcrestKorocheGovorya">
     <configuration name="CalculatorImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test2" />
       <option name="PACKAGE_NAME" value="" />
@@ -297,21 +296,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorImplTest.tesDivision" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorImplTest.testHamcrestKorocheGovorya" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test2" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CalculatorImplTest" />
-      <option name="METHOD_NAME" value="tesDivision" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculatorImplTest.testDevisionByNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="test2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculatorImplTest" />
-      <option name="METHOD_NAME" value="testDevisionByNull" />
+      <option name="METHOD_NAME" value="testHamcrestKorocheGovorya" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -322,6 +311,16 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CalculatorImplTest" />
       <option name="METHOD_NAME" value="testdDivisionByZero" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorNegativeTest.testHamcrestKorocheGovorya" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalculatorNegativeTest" />
+      <option name="METHOD_NAME" value="testHamcrestKorocheGovorya" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -338,19 +337,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.CalculatorImplTest.tesDivision" />
       <item itemvalue="JUnit.CalculatorImplTest.testdDivisionByZero" />
-      <item itemvalue="JUnit.CalculatorImplTest.testDevisionByNull" />
       <item itemvalue="JUnit.CalculatorImplTest" />
       <item itemvalue="JUnit.CalculatorNegativeTest.testdDivisionByZeroArithmeticExceptionJe" />
+      <item itemvalue="JUnit.CalculatorNegativeTest.testHamcrestKorocheGovorya" />
+      <item itemvalue="JUnit.CalculatorImplTest.testHamcrestKorocheGovorya" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculatorImplTest.testHamcrestKorocheGovorya" />
+        <item itemvalue="JUnit.CalculatorNegativeTest.testHamcrestKorocheGovorya" />
         <item itemvalue="JUnit.CalculatorNegativeTest.testdDivisionByZeroArithmeticExceptionJe" />
         <item itemvalue="JUnit.CalculatorImplTest" />
         <item itemvalue="JUnit.CalculatorImplTest.testdDivisionByZero" />
-        <item itemvalue="JUnit.CalculatorImplTest.tesDivision" />
-        <item itemvalue="JUnit.CalculatorImplTest.testDevisionByNull" />
       </list>
     </recent_temporary>
   </component>
@@ -400,10 +399,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="97" y="66" width="1325" height="938" extended-state="1" />
+    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20948617" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28993437" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -455,13 +454,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -472,14 +464,21 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/CalculatorImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="20" column="52" lean-forward="true" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="64" />
+          <caret line="20" column="52" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="43" lean-forward="true" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CalculatorImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="476">
+          <caret line="28" column="38" lean-forward="true" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -488,8 +487,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CalculatorNegativeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="34" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="73" />
         </state>
       </provider>
     </entry>
